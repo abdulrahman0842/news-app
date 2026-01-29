@@ -1,16 +1,70 @@
-# React + Vite
+# React News App 📰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **news reading web application** built using **React** that fetches real-time news articles from **NewsAPI.org**.  
+The app allows users to explore news based on **categories, sources, agencies, and topics**, along with **top headlines** from various publishers.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🗞️ Top headlines from multiple news agencies
+- 🧭 Category-wise news (Business, Sports, Technology, Health, etc.)
+- 🏢 News by sources & publishers
+- 🔍 Topic-based article filtering
+- 🌍 Country-specific news
+- 📄 Detailed article view
+- 🔄 Real-time data fetching from NewsAPI
+- 📱 Responsive design for web devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| | |
+|---|---|
+| ![News App](screenshots/na1.PNG) | ![News App](screenshots/na2.PNG) |
+| ![News App](screenshots/na3.PNG) | ![News App](screenshots/na4.PNG) |
+| ![News App](screenshots/na5.PNG) | |
+
+
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- JavaScript (ES6+)
+- HTML5, CSS3
+- Axios / Fetch API
+- React Router
+
+### API
+- [NewsAPI.org](https://newsapi.org)
+
+---
+
+## 📂 Project Structure
+
+```bash
+react-news-app/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── hooks/
+│   ├── utils/
+│   ├── App.js
+│   └── main.jsx
+│
+├── screenshots/
+│   ├── na1.PNG
+│   ├── na2.PNG
+│   ├── na3.PNG
+│   ├── na4.PNG
+│   └── na5.PNG
+│
+├── public/
+├── .env
+├── package.json
+└── README.md
